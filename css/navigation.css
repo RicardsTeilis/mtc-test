@@ -1,0 +1,44 @@
+.navbar {
+    padding: 1.5rem 0rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    border-bottom: solid 1px #979797;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 1rem 0rem;
+    }
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.btn-nav {
+    padding: 10px 35px;
+    background: transparent;
+    border: solid 1px #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.23em;
+    color: #fff;
+}
+
+.social-icon-nav {
+    width: 18px;
+    fill: #ffffff;
+}
+
+.social-icon-mob {
+    display: inline-block;
+    padding: 0.5rem 0.7rem 0.5rem 0;
+}
